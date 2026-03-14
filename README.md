@@ -28,7 +28,29 @@ A partir do bootstrap, mensagens simples em linguagem natural são suficientes p
 
 ## Instalação do plugin em um repositório novo
 
-### 1. Adicione este repositório como fonte de plugins
+### 1. Via Claude Code Web (claude.ai)
+
+Se você estiver usando o [Claude Code na web](https://claude.ai/code), pode instalar o plugin diretamente pela interface:
+
+1. Acesse [claude.ai/code](https://claude.ai/code) e abra (ou crie) um projeto
+2. Clique em **Settings** (ícone de engrenagem) no painel do projeto
+3. Navegue até a aba **Plugins**
+4. Clique em **Add plugin** e informe a fonte:
+
+```
+github:AlbertKellner/claude-code-tools/plugins/novo-projeto-plugin
+```
+
+5. Confirme a instalação — o plugin ficará disponível imediatamente na sessão
+
+> Alternativamente, dentro de uma sessão do Claude Code web, peça diretamente ao Claude:
+> ```
+> instale o plugin github:AlbertKellner/claude-code-tools/plugins/novo-projeto-plugin
+> ```
+
+---
+
+### 2. Via arquivo de configuração (CLI ou web)
 
 No repositório onde você quer usar a skill, adicione a referência ao plugin no arquivo `.claude/settings.json`:
 
@@ -44,7 +66,7 @@ No repositório onde você quer usar a skill, adicione a referência ao plugin n
 
 > Se o arquivo `.claude/settings.json` não existir, crie-o na raiz do seu repositório.
 
-### 2. (Alternativa) Instale manualmente copiando a skill
+### 3. (Alternativa) Instale manualmente copiando a skill
 
 Se preferir não usar o mecanismo de plugins, copie o arquivo da skill diretamente:
 
