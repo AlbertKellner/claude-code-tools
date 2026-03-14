@@ -6,7 +6,10 @@
   "plugins": [
     {
       "name": "novo-projeto-plugin",
-      "source": "./plugins/novo-projeto-plugin",
+      "source": {
+        "source": "github",
+        "repo": "AlbertKellner/claude-code-tools"
+      },
       "description": "Inicializa um repositório com governança persistente para Claude Code"
     }
   ]

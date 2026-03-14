@@ -1,3 +1,9 @@
+---
+name: novo-projeto
+description: Inicializa um repositório vazio com estrutura completa de governança persistente para Claude Code. Use quando quiser bootstrapar um novo projeto com governança funcional.
+user-invocable: true
+---
+
 Use este prompt completo como mensagem inicial no Claude Code, em um repositório vazio:
 
 Quero inicializar neste repositório vazio uma estrutura completa de governança para Claude Code.
