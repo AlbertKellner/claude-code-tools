@@ -1,0 +1,13 @@
+{
+  "name": "meus-plugins",
+  "owner": {
+    "name": "Albert Kellner Lescinskiene"
+  },
+  "plugins": [
+    {
+      "name": "novo-projeto-plugin",
+      "source": "./plugins/novo-projeto-plugin",
+      "description": "Inicializa um repositório com governança persistente para Claude Code"
+    }
+  ]
+}
